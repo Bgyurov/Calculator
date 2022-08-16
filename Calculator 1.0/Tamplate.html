@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Calculator</title>
+    <style>
+        body {
+            background-color: rgb(119, 189, 8);
+        }
+        
+        h1 {
+            color: white;
+            text-align: center;
+        }
+        
+        p {
+            font-family: verdana;
+            font-size: 20px;
+        }
+        
+        input {
+            width: 150px;
+            outline: 0;
+            border: 0;
+            color: #495069;
+            background-color: 4px;
+            font-size: 15px;
+            box-shadow: 0 4px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<h1>Calculator 1.0</h1>
+
+<body>
+    <form id="My Calculator">
+
+        <p>Number 1</p>
+        <input type="text" id="num1" />
+        <p>Separator</p>
+        <input type="text" id="separator" />
+        <p>Number 2</p>
+        <input type="text" id="num2" /> =
+        <p>Result</p>
+        <input type="text" id="sum" readonly="readonly" />
+        <input type="button" value="Calc" onclick="calc()" />
+        <input type="button" onclick="reset()" value="Reset form">
+        <script src="SumNumbers.js"></script>
+        <script src="Reset.js"></script>
+    </form>
+</body>
+
+</html>
