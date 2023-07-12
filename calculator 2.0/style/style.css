@@ -1,0 +1,78 @@
+body {
+    background-color: #273043;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.wrapper{
+    text-align: center;
+}
+
+.wrapper h1,h2{
+    color: antiquewhite;
+    
+}
+.wrapper a{
+    color: #db681b;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+.wrapper a:hover{
+    color: #5e351a;
+    text-decoration: none;
+    font-size: 22px;
+    
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #db681b;
+    padding: 10px;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px 10px 30px;
+    font-size: 30px;
+    text-align: center;
+  }
+  input[type="text"]{
+    color: rgb(192, 212, 13);
+    background-color: #273043;
+    height: 40px;
+    font-size: 28px;
+  }
+
+  input[type="number"]:hover{
+    color: rgb(191, 153, 226);
+    background-color: #273043;
+    height: 50px;
+    font-size: 30px;
+  }
+
+  button.operator[type="button"]{
+    background-color: #273043;
+    height: 50px;
+    font-size: 30px;
+  }
+  button.operator[type="button"]:hover{
+    background-color: #273043;
+    height: 50px;
+    font-size: 35px;
+  }
+
+  button#clear[type="button"],
+  button#positive-negative[type="button"]{
+    color: #dbdee6;
+    height: 50px;
+    font-size: 30px;
+  }
+  button#clear[type="button"]:hover,
+  button#positive-negative[type="button"]:hover{
+    color: #dbdee6;
+    height: 50px;
+    font-size: 35px;
+  }
+  
+ 
+
